@@ -1,0 +1,76 @@
+
+table{
+    user-select: none;
+}
+
+.table-organization {
+    border: black 2px solid;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 7px 3px grey;
+    margin: auto;
+}
+
+.thead-organization {
+    background: slategray;
+}
+
+th {
+    border: black 2px solid;
+    padding: 10px;
+}
+
+
+td {
+    border: black 1px solid;
+    padding: 7px;
+}
+
+.row-organization:hover {
+    background: lightgrey;
+    text-shadow: 1px 1px 2px grey;
+    box-shadow: 2px 2px 7px 3px grey;
+}
+
+.row-organization:active {
+    background: lightgrey;
+    color: blue;
+    text-decoration: underline;
+    box-shadow: 0px 0px 7px 3px blue;
+}
+
+
+.height-between-table {
+    height: 70px;
+}
+
+.table-cars {
+    margin: auto;
+    text-align: center;
+    border-collapse: separate;
+}
+
+.thead-cars {
+    background: #808080;
+}
+
+.table-cars td {
+    background: lightgrey;
+    border: none;
+    border-radius: 25px;
+}
+
+.table-cars td:hover {
+    background: #cbcbcb;
+    text-shadow: 1px 1px 2px grey;
+    box-shadow: 2px 2px 7px 3px grey;
+}
+
+.table-cars td:active {
+    border: 1px solid blue;
+    background: #bebcbc;
+    padding: 1%;
+    color: blue;
+    text-shadow: 1px 1px 2px blue,
+    1px 1px 7px aqua;
+    box-shadow: none;
+}

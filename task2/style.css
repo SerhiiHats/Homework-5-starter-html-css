@@ -1,0 +1,22 @@
+.container{
+    width: 900px;
+    font-size: 24px;
+    font-family: Arial sans-serif;
+    margin: auto;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    background: #e0e0e0;
+}
+
+li{
+    list-style: none;
+    padding: 20px;
+}
+
+li:nth-child(2){
+    border-left: grey 2px solid;
+    border-right: grey 2px solid;
+}

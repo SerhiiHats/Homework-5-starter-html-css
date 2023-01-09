@@ -1,0 +1,23 @@
+.container{
+    width: 800px;
+    margin: auto;
+
+}
+
+.inner-container{
+    padding: 10px;
+    border: lightgrey 2px solid;
+    border-radius: 20px;
+}
+
+/*каждый ребенок который является четным*/
+
+.inner-container:nth-child(even){
+    background: lightgrey;
+}
+
+/*каждый ребенок который является нечетным*/
+
+/*.inner-container:nth-child(odd){*/
+/*    background: #f6f5f5;*/
+/*}*/

@@ -1,0 +1,20 @@
+body{
+    background-image: url("images/HTML5.png");
+    background-size: 12%;
+    background-position: 97% 10%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: content-box;
+}
+
+.container {
+    max-width: 75%;
+    padding: 20px 40px 20px 20px;
+    border: grey 1px solid;
+    margin: 20px 50px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+

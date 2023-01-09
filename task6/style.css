@@ -1,0 +1,42 @@
+.container {
+    width: 900px;
+    height: 330px;
+    border: grey 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container div {
+    width: 330px;
+    height: 200px;
+    padding: 20px 20px 5px 20px;
+    margin: 25px;
+    border: grey 2px solid;
+    border-radius: 35px;
+    background-size: 100px 100px;
+    background-position: center 15px;
+    background-repeat: no-repeat;
+    font-family: Arial cursive;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+p{ width: 95%;
+    height: 65px;
+    text-align: center;
+    margin: 10px;
+}
+
+.container div:first-child {
+    background-image: url("images/HTML5.png");
+}
+
+.container div:last-child {
+    background-image: url("images/CSS3.png");
+}
+
